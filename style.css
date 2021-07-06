@@ -46,7 +46,7 @@ p{
     padding: 10px 20px;
     text-decoration: none;
     font-size: 25px;
-    background: orangered;
+    background:linear-gradient(to right, #FB8E49 0%, #FC4E2F  100%);
     color: white;
     border-radius: 30px;
 }
