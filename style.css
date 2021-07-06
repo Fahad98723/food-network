@@ -5,6 +5,30 @@ body{
 }
 #home{
     padding:70px;
+    padding-top: 0px;
+}
+header{
+    display: flex;
+    text-align: center; 
+    font-family: 'Roboto Slab', serif;
+}
+.logo{
+    width: 40%;
+}
+.logo h1{
+    font-size: 40px;
+}
+.menu{
+    width: 60%;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 25px;
+    color: #575757;
 }
 .color{
     color: #FC8D48;
@@ -32,7 +56,7 @@ p{
     width: 50%;
 }
 .details{
-    padding-top: 100px;
+    margin-top: 100px;
     color: #575757;
 }
 .details p{
@@ -82,7 +106,7 @@ p{
 #recipe .recipe-1{
     width: 33%;
     padding: 1.5%;
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 3px 3px 20px #9B9BA0;
     margin: 15px;
     border-radius: 20px;
 }  
@@ -91,6 +115,31 @@ p{
 }
 #recipe .recipe-1 h3{
     font-size: 25px;
+}
+#contact {
+    padding: 50PX;
+    background: url(./images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#contact .half-width{
+    padding: 0 3%;
+}
+label{
+    font-size: 25px;
+    font-weight: 900;
+}
+input {
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 25px;
+    border: 1px solid;
+}
+textarea{
+    width: 100%;
+    border: 1px solid;
+    margin-bottom: 15px;
 }
 #social{
     padding: 50px 70px;
@@ -103,7 +152,7 @@ p{
     font-size: 40px;
 }
 #social .border {
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 3px 3px 20px #9B9BA0;
     border-radius: 10px;
     padding: 15px;
 }
