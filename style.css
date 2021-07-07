@@ -4,7 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 #home{
-    padding:70px;
+    padding:60px;
     padding-top: 0;
 }
 header{
@@ -62,7 +62,7 @@ p{
 .details{
     margin-top: 100px;
     color: #575757;
-    margin-left: 50px;
+    margin-left: 45px;
 }
 .details p{
     color: #838383;
