@@ -5,7 +5,7 @@ body{
 }
 #home{
     padding:70px;
-    padding-top: 0px;
+    
 }
 header{
     display: flex;
@@ -28,7 +28,7 @@ header{
     text-decoration: none;
     font-size: 25px;
     margin-right: 25px;
-    color: #575757;
+    color: #919191;
 }
 .color{
     color: #FC8D48;
